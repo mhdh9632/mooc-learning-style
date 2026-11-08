@@ -47,6 +47,19 @@ The companion module `code/kdd_seq_common (1).py` moves to `models/sequence_repr
 
 The three original files `fslsm+eventlvl.ipynb`, `Untitled5_fixed.ipynb`, and `Untitled5_fixed (1).ipynb` have the same normalized cell-source hash (`7c79e09c71086549`). One is retained as the active, descriptively named notebook and two remain in the archive.
 
+## Additional Colab imports (2026-11-09)
+
+The following notebooks were added to the project root from Google Colab and have now been sorted without deleting any copies:
+
+| Imported path | Destination | Classification |
+|---|---|---|
+| `Project_v2.ipynb` | `archive/notebooks/baseline_history/imported_colab/Project_v2.ipynb` | Archived baseline/sequence implementation |
+| `old_project.ipynb` | `archive/notebooks/baseline_history/imported_colab/old_project.ipynb` | Archived baseline/sequence implementation; duplicate of the imported `Project_v2.ipynb` |
+| `old_1.ipynb` | `archive/notebooks/baseline_history/imported_colab/old_1.ipynb` | Archived BiLSTM variant with first-week evaluation |
+| `Untitled2.ipynb` | `models/fslsm_bilstm/04_fslsm_static_feature_comparison.ipynb` | Active FSLSM comparison: sequence-only versus sequence + four static FSLSM scores |
+
+The imported `Project_v2.ipynb` and `old_project.ipynb` are retained separately for provenance even though their normalized notebook contents are identical.
+
 ## Dataset integrity baseline
 
 | File | SHA-256 |

@@ -7,6 +7,7 @@ These notebooks test whether clickstream-derived Felder–Silverman learning-sty
 1. `01_fslsm_sequence_preprocessing.ipynb` — builds the same event windows as the baseline and adds four window-level FSLSM scores.
 2. `02_fslsm_bilstm_training_and_evaluation.ipynb` — trains sequence-only and sequence-plus-FSLSM variants with the same windows and seed.
 3. `03_all_dimensions_event_level_bilstm.ipynb` — a self-contained Colab/Kaggle experiment using eight static features (scores plus related dimension values).
+4. `04_fslsm_static_feature_comparison.ipynb` — imported Colab comparison of sequence-only versus sequence-plus-four-static-FSLSM-score BiLSTMs.
 
 The first two notebooks share `artifacts/fslsm_bilstm/processed_data_fslsm.pt`. Store the repository at `/content/drive/MyDrive/kdd_dropout_project` or set `KDD_PROJECT_ROOT`. The third notebook keeps its original Kaggle download workflow and requires the user's Drive-hosted Kaggle configuration.
 
