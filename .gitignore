@@ -1,0 +1,24 @@
+# Large local dataset (download separately; see PROJECT.md)
+dataset/
+
+# Generated training artifacts and results
+artifacts/
+results/
+*.pt
+*.pth
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Notebook/Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local execution ledger and editor/OS files
+.superpowers/
+.DS_Store
+Thumbs.db
