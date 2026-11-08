@@ -10,6 +10,8 @@ Start with [PROJECT.md](PROJECT.md) for:
 - recorded accuracy, precision, recall, F1, and ROC AUC results;
 - methodological limitations and the improvement roadmap.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the GitHub synchronization, Colab, reproducibility, security, and review rules.
+
 ## Repository structure
 
 ```text

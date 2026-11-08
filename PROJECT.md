@@ -32,6 +32,8 @@ The code is organized for Google Colab. The checked-in notebooks retain their re
 
 The complete original-to-new path mapping and integrity hashes are in [the original file inventory](docs/original-file-inventory.md).
 
+Project-wide contribution and GitHub synchronization rules are in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Dataset
 
 The current repository contains the official train/test-style split plus the provided truth files. The notebooks interpret label `1` as dropout and label `0` as retained.
